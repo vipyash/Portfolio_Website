@@ -1,0 +1,354 @@
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: black;
+    margin: 0px;
+    padding: 0%;
+  
+    font-size: 1em;
+    background-image: url(background.jpg);
+}
+
+.left {
+    /*  border: 2px solid red;*/
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 18px;
+}
+
+.left img {
+    height: 60px;
+    width: 90px;
+    padding: 20px;
+    border-radius: 70px;
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+.right {
+
+    /*  border: 2px solid yellow;*/
+    display: inline-block;
+    position: absolute;
+
+    right: 34px;
+    top: 20px;
+}
+
+
+.mid {
+    /* border: 2px solid green; */
+    display: block;
+    margin: 20px auto;
+    width: 50%;
+
+
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar li a {
+    color: black;
+    text-decoration: none;
+    padding: 20px 20px;
+}
+
+
+.navbar li a:hover,
+.navbarli a.active {
+    color: blue;
+    text-decoration: underline;
+
+}
+
+.detail {
+    margin-left: 8%;
+    margin-top: 15%;
+}
+
+span {
+    color: #fa7900;
+}
+
+.detail h1 {
+    font-size: 50px;
+    color: #212121;
+    margin-bottom: 15px;
+}
+
+.detail a {
+    background-color: #212121;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+}
+.detail a :hover{
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+#girl {
+    height: 400px;
+    width: 500px;
+    position: relative;
+    right: 250px;
+    bottom: 400px;
+
+}
+
+.images {
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: 100px;
+    right: 300px;
+    transform: translate(-50%);
+    transition: bottom 1s left 1s;
+}
+
+
+
+.about {
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(background.jpg);
+}
+
+.about img {
+    height: auto;
+    width: 430px;
+}
+
+.about-text {
+    width: 550px;
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: o auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2 {
+    color: black;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin: 20px;
+}
+
+.about-text h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 45px;
+}
+.about-text p{
+    color: #181616f7;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 28px;
+    transition: .4s;
+    margin: 30px 0;
+    border-radius: 5px;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+}
+
+
+.service {
+    background: color #7a7a7a;
+    width: 100%;
+    padding: 100px 0px;
+}
+
+.title h2 {
+    color: black;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card {
+    height: 365px;
+    width: 335px;
+    padding: 20px 30px;
+    background-color: #1712121f;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #0e090cda;
+}
+
+h5 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+
+.pra p {
+    color: rgba(246, 62, 11, 0.8);
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.card .read {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 22px;
+    transition: .4s;
+    margin: 30px 0;
+    border-radius: 5px;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+.card .read:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+
+.contact-me {
+    width: 100%;
+    height: 290px;
+    background-image: url(background.jpg);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-me p {
+    color: #101010;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.contact-me .button-two {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 5px;
+    transition: .4s;
+}
+
+
+.contact-me .button-two:hover {
+    background-color: transparent;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(background.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer p:nth-child(1){
+    font-size: 30px;
+    color: black;
+    margin: 20px;
+    font-weight: bold;
+}
+footer p :nth-child(2){
+    color: black;
+    font-size:18px;
+    width: 500px;
+    text-align: center;
+    line-height: 25px;
+}
+.social{
+    display: flex;
+} 
+.social a { color: #101010;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    text-decoration: none;
+    margin: 15px 8px;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.social a :hover{
+    transform: scale(1,4);
+    transition: .4s;
+    color: orangered;
+}
+.last{
+    position: absolute;
+    bottom: 35px;
+    color: orangered;
+    font-size: 14px;
+}
